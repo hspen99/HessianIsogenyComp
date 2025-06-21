@@ -21,7 +21,6 @@ for qq in {-15,1,5,13,17,21,3,7,11,8,10,12} do
 		isog_pairs join:={[qq,root[1]] : root in Roots(Numerator(Evaluate(ClassicalModularPolynomial(2*ii),[jEq,jHq])))| root[1] in Integers() };
 	end for;
 	isog_pairs join:={[qq,root[1]] : root in Roots(Numerator(Evaluate(phi_18,[jEq,jHq])))| root[1] in Integers() };
-	"done: ", qq;
 end for;
 
 printf "The pairs (q,t) for which E and H are isogenous are: %o", isog_pairs;

@@ -5,7 +5,7 @@ RR<tt>:=FieldOfFractions(PolynomialRing(Rationals()));
 load "phi_18.txt";
 
 // Sanity check; there's a cyclic 18-isogeny between curves with these j-invariants
-assert Evaluate(phi,[-15625/28,2251439055699625/25088]) eq 0;
+assert Evaluate(phi_18,[-15625/28,2251439055699625/25088]) eq 0;
 
 // j-invariants of E and H
 jE:=(4096*q^3 - 110592*q^2 + 995328*q - 2985984)/(-3888*q^3*t^2 - 192*q^3*t + 2592*q^2*t + 144*q - 1728);

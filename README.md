@@ -1,5 +1,5 @@
 # HessianIsogenyComp
-This is the Magma code for the computation which completes the proof of Proposition 4.5 in "Constructing families of Selmer companions" (https://hspen99.github.io/writings/SelmerCompanions.pdf). 
+This is the Magma code for the computation which completes the proof of Proposition 4.5 in "Constructing families of Selmer companions" (https://arxiv.org/abs/2502.01351). 
 
 phi_18.txt: This contains the 18th classical modular polynomial, which was originally taken from https://math.mit.edu/~drew/ClassicalModPolys.html.
 
